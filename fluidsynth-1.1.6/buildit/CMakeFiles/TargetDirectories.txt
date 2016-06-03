@@ -1,0 +1,5 @@
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/CMakeFiles/ALL_BUILD.dir
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/doc/CMakeFiles/doxygen.dir
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/src/CMakeFiles/fluidsynth.dir
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/src/CMakeFiles/libfluidsynth.dir
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/CMakeFiles/ZERO_CHECK.dir

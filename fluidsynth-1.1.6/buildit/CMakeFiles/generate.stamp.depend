@@ -1,0 +1,43 @@
+# CMake generation dependency list for this directory.
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/CMakeLists.txt
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/CMakeFiles/3.4.2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/CMakeFiles/3.4.2/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/CMakeFiles/3.4.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/DefaultDirs.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/CheckSTDC.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/CheckPrototypeExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckIncludeFiles.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/CheckDIRSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/TestInline.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckCSourceCompiles.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/TestVLA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/UnsetPkgConfig.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/FindOSS.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/src/config.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/src/config_win32.cmake
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/fluidsynth.pc.in
+D:/repos/fluidsynth_windows/fluidsynth-1.1.6/cmake_admin/report.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CPack.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.4/Templates/CPackConfig.cmake.in
+C:/Program Files (x86)/CMake/share/cmake-3.4/Templates/CPackConfig.cmake.in
