@@ -272,6 +272,13 @@ void handle_signal(int sig_num)
 /*
  * main
  */
+
+//int main2(int argc, char** argv)
+//int main(int argc, char** argv)
+//{
+//
+//}
+
 int main(int argc, char** argv)
 {
   fluid_settings_t* settings;
