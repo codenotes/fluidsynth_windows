@@ -134,7 +134,8 @@ fluid_adsr_env_set_val(fluid_adsr_env_t* env, fluid_real_t val)
 static inline fluid_adsr_env_section_t
 fluid_adsr_env_get_section(fluid_adsr_env_t* env)
 {
-  return env->section;
+
+	return (fluid_adsr_env_section_t)env->section;
 }
 
 static inline void 

@@ -135,6 +135,12 @@ FLUIDSYNTH_API fluid_sfont_t *fluid_synth_get_sfont_by_name (fluid_synth_t* synt
 FLUIDSYNTH_API int fluid_synth_set_bank_offset(fluid_synth_t* synth, int sfont_id, int offset);
 FLUIDSYNTH_API int fluid_synth_get_bank_offset(fluid_synth_t* synth, int sfont_id);
 
+#ifdef GREG1
+#pragma message("exporting fluid_synth_get_preset")
+FLUIDSYNTH_API fluid_preset_t* fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum, unsigned int banknum, unsigned int prognum);
+
+#endif
+
 
 /* Reverb  */
 

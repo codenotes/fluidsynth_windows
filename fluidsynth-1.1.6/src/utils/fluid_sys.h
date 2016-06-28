@@ -39,6 +39,9 @@
 #include <glib.h>
 #include "fluidsynth_priv.h"
 
+#ifdef GREG1
+#include <memory.h>
+#endif
 
 /**
  * Macro used for safely accessing a message from a GError and using a default

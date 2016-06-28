@@ -62,9 +62,8 @@ static int fluid_synth_update_pitch_bend_LOCAL(fluid_synth_t* synth, int chan);
 static int fluid_synth_update_pitch_wheel_sens_LOCAL(fluid_synth_t* synth, int chan);
 static int fluid_synth_set_preset (fluid_synth_t *synth, int chan,
                                    fluid_preset_t *preset);
-static fluid_preset_t*
-fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum,
-                       unsigned int banknum, unsigned int prognum);
+static fluid_preset_t* fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum,      unsigned int banknum, unsigned int prognum);
+
 static fluid_preset_t*
 fluid_synth_get_preset_by_sfont_name(fluid_synth_t* synth, const char *sfontname,
                                      unsigned int banknum, unsigned int prognum);
@@ -1770,8 +1769,9 @@ fluid_synth_set_preset (fluid_synth_t *synth, int chan, fluid_preset_t *preset)
  * NOTE: The returned preset has been allocated, caller owns it and should
  *       free it when finished using it.
  */
-static fluid_preset_t*
-fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum,
+//GREG1: removed static...
+// static
+fluid_preset_t* fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum,
                        unsigned int banknum, unsigned int prognum)
 {
   fluid_preset_t *preset = NULL;
@@ -4974,4 +4974,28 @@ int fluid_synth_set_channel_type(fluid_synth_t* synth, int chan, int type)
 
   FLUID_API_RETURN(FLUID_OK);
 }
+
+
+#ifdef GREG1
+//fluid_preset_t*
+//fluid_synth_get_preset(fluid_synth_t* synth, unsigned int sfontnum,
+//		      unsigned int banknum, unsigned int prognum)
+//{
+//  fluid_preset_t* preset = NULL;
+//  fluid_sfont_t* sfont = NULL;
+//  fluid_list_t* list = synth->sfont;
+//  int offset;
+//
+//  sfont = fluid_synth_get_sfont_by_id(synth, sfontnum);
+//
+//  if (sfont != NULL) {
+//    offset = fluid_synth_get_bank_offset(synth, sfontnum);
+//    preset = fluid_sfont_get_preset(sfont, banknum - offset, prognum);
+//    if (preset != NULL) {
+//      return preset;
+//    }
+//  }
+//  return NULL;
+//}
+#endif
 

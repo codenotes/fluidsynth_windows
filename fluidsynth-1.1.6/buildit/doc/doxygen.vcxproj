@@ -20,7 +20,6 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGUID>{B63B39D2-296C-338D-B9A8-8893935BE3E7}</ProjectGUID>
-    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>doxygen</ProjectName>
@@ -116,7 +115,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\doc\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt</Message>
@@ -129,7 +128,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\doc\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt</Message>
@@ -142,7 +141,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\doc\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt</Message>
@@ -155,7 +154,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/repos/fluidsynth_windows/fluidsynth-1.1.6/doc/CMakeLists.txt;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\Doxyfile.cmake;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\doc\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>

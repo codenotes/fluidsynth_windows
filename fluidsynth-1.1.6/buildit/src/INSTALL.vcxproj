@@ -20,7 +20,6 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGUID>{62FBA590-C2CB-3B10-B986-DBC7EB6986B7}</ProjectGUID>
-    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -209,6 +208,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/ZERO_CHECK.vcxproj">
+      <Project>3827C2C6-4BB8-32DF-9669-0BDABA323023</Project>
+    </ProjectReference>
     <ProjectReference Include="D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/ALL_BUILD.vcxproj">
       <Project>DD41A3C0-8817-3BB1-AEBA-88162F9E962A</Project>
     </ProjectReference>

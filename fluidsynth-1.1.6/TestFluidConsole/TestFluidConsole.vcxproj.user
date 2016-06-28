@@ -4,4 +4,9 @@
     <LocalDebuggerEnvironment>path=D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\src\Release\;%PATH%</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>c:\temp\glober_64.sf2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>path=D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\src\Release\;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
 </Project>

@@ -24,7 +24,19 @@
 
 #include <glib.h>
 
-#if HAVE_CONFIG_H
+#ifdef GREG1
+//some issue with below, not sure if I need this or not but it causes compiler errors in libsynth.
+//#include <cstdint>
+ 
+ //#pragma message("GREG ONE DEFINED!!!")
+//#ifdef HAVE_CONFIG_H
+//#pragma message("HAVE_CONFIG DEFINED!!!")
+//#endif
+#endif
+
+#if defined(HAVE_CONFIG_H) || defined(GREG1)
+//this is running even though intellisense has it grey...
+//checked with pragma
 #include "config.h"
 #endif
 
@@ -113,6 +125,15 @@
 #endif
 
 #if HAVE_WINDOWS_H
+#pragma message("socket headers being included...")
+#ifndef SOCKET
+#pragma message("puzzling...headers included but socket not being defined")
+#ifndef UINT_PTR
+#pragma message("this PTR not defined so SOCKET not defined...")
+#endif
+
+#endif
+
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include <windows.h>
@@ -157,6 +178,10 @@ typedef double fluid_real_t;
 
 
 #if defined(WIN32)
+#ifndef SOCKET
+#define SOCKET int
+#pragma message("SOCKET was not defined, it should have been, so assigning it to INT. file:" __FILE__)
+#endif
 typedef SOCKET fluid_socket_t;
 #else
 typedef int fluid_socket_t;

@@ -114,9 +114,6 @@
     <ClInclude Include="D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\config_win32.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\utils\fluid_conv.h">
       <Filter>Header Files</Filter>
     </ClInclude>

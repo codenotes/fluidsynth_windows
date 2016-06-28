@@ -101,13 +101,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\drivers;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\synth;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\rvoice;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\midi;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\utils;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\sfloader;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\bindings;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\include;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\include;D:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\include\glib-2.0;D:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\lib\glib-2.0\include;D:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>g:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\drivers;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\synth;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\rvoice;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\midi;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\utils;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\sfloader;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\src\bindings;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\include;g:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\include;g:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\include\glib-2.0;g:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\lib\glib-2.0\include;g:\gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib;D:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib/$(Configuration);D:\GnuWin32\src\libintl\0.14.4\libintl-0.14.4-src\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>gthread-2.0.lib;glib-2.0.lib;intl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib;G:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib/$(Configuration);g:\GnuWin32\src\libintl\0.14.4\libintl-0.14.4-src\;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\importantlib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gthread-2.0.lib;glib-2.0.lib;intl.lib;G:\repos\fluidsynth_windows\fluidsynth-1.1.6\importantlib\intl.lib;G:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\src\Release\fluidsynth.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -143,8 +143,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib;D:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib/$(Configuration);D:\GnuWin32\src\libintl\0.14.4\libintl-0.14.4-src\;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\src\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>gthread-2.0.lib;glib-2.0.lib;intl.lib;fluidsynth.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib;G:/gtk2-gtk3-sdk-2.24.30-3.20.2-2016-04-09-ts-win64/lib/$(Configuration);g:\GnuWin32\src\libintl\0.14.4\libintl-0.14.4-src\;D:\repos\fluidsynth_windows\fluidsynth-1.1.6\importantlib\;G:\repos\fluidsynth_windows\fluidsynth-1.1.6\importantlib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gthread-2.0.lib;glib-2.0.lib;G:\repos\fluidsynth_windows\fluidsynth-1.1.6\importantlib\intl.lib;G:\repos\fluidsynth_windows\fluidsynth-1.1.6\buildit\src\Release\fluidsynth.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -157,11 +157,6 @@
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TestFluidConsole.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\buildit\src\libfluidsynth.vcxproj">
-      <Project>{be5ae252-7d1b-37d2-abef-538cf8dc88b6}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
