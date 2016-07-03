@@ -32,6 +32,8 @@
 #include "config.h"
 #endif
 #include "fluidsynth_priv.h"
+
+#ifndef __INTELLISENSE__
 #include "fluid_event_queue.h"
 #include "fluid_list.h"
 #include "fluid_rev.h"
@@ -41,7 +43,7 @@
 #include "fluid_midi_router.h"
 #include "fluid_sys.h"
 #include "fluid_rvoice_event.h"
-
+#endif
 /***************************************************************
  *
  *                         DEFINES

@@ -324,9 +324,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="Test1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/ZERO_CHECK.vcxproj">
-      <Project>3827C2C6-4BB8-32DF-9669-0BDABA323023</Project>
-    </ProjectReference>
     <ProjectReference Include="D:/repos/fluidsynth_windows/fluidsynth-1.1.6/buildit/src/libfluidsynth.vcxproj">
       <Project>BE5AE252-7D1B-37D2-ABEF-538CF8DC88B6</Project>
     </ProjectReference>
