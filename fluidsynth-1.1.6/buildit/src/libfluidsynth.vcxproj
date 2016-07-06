@@ -142,7 +142,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;HAVE_CONFIG_H;CMAKE_INTDIR="Release";libfluidsynth_EXPORTS;%(PreprocessorDefinitions);;__STDC_VERSION__=201112L;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>GREG1;WIN32;_WINDOWS;NDEBUG;FLUIDSYNTH_DLL_EXPORTS;HAVE_CONFIG_H;CMAKE_INTDIR="Release";libfluidsynth_EXPORTS;%(PreprocessorDefinitions);;__STDC_VERSION__=201112L;</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
